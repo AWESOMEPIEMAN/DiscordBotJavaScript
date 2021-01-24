@@ -55,14 +55,17 @@ client.on('message', msg =>{
 
 client.on('message', msg =>{
     
+    if(msg.content === '.abdullah'){
+        msg.channel.send("Beta aj rana nahi bachda. Aj Abdullah nu chuk kay lejana")
+    }
+    });
+
+client.on('message', msg =>{
+    
         if(msg.content === '.fu'){
             msg.channel.send("Fucking fuck fuck hogaya")
         }
         });
-client.on('message', msg =>{
-    if(msg.content === '.mamba'){
-        msg.channel.send("Puttar tu acha internet lagwa lay")
-    }
-    });
+
 
 client.login(process.env.BOT_TOKEN);
