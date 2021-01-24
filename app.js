@@ -66,6 +66,12 @@ client.on('message', msg =>{
             msg.channel.send("Fucking fuck fuck hogaya")
         }
         });
+client.on('message', msg =>{
+    
+        if(msg.content === '.frosty'){
+            msg.channel.send("YT Frosty Plays bhai jan. Underground janay ka samay agaya hay")
+        }
+        });
 
 
 client.login(process.env.BOT_TOKEN);
