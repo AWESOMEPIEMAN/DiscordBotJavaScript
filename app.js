@@ -27,7 +27,7 @@ client.on('message', msg =>{
 client.on('message', msg =>{
     if(msg.author.bot){return}
     if(msg.content === '.commands'){
-        msg.channel.send("I have the following commands : \n .ice \n .mamba \n .aws \n use any :D")
+        msg.channel.send("I have the following commands : \n .ice \n .aws \n use any :D")
 
     }
     });
