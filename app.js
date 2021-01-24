@@ -41,6 +41,13 @@ if(msg.content === '.ice'){
 
 client.on('message', msg =>{
     
+if(msg.content === '.xam'){
+    msg.channel.send("Meethay londay aja meri godi may bhet")
+}
+});
+
+client.on('message', msg =>{
+    
     if(msg.content === '.aws'){
         msg.channel.send("Beta aj rana tay awais nahi bachda. Aj awais nu chuk kay lejana")
     }
