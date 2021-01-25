@@ -16,13 +16,20 @@ client.on('message', msg =>{
 });
 
 client.on('message', msg =>{
+    if (msg.content.includes("Who is Awais?")){
+        msg.reply(["For mentally challenged person : ",
+        "https://www.instagram.com/lifeofawais/"
+      ])
+    }
+  });
+
+client.on('message', msg =>{
     if (msg.content.includes("Who is iceflame?")){
         msg.reply(["Is kanjar say mulakat kayliyay neechay dekhiyay",
         "https://www.instagram.com/mriceflame1/"
       ])
     }
   });
-
 
 client.on('message', msg =>{
     if(msg.author.bot){return}
@@ -68,8 +75,8 @@ client.on('message', msg =>{
         });
 client.on('message', msg =>{
     
-        if(msg.content === '.frosty'){
-            msg.channel.send("YT Frosty Plays bhai jan. Underground janay ka samay agaya hay")
+        if(msg.content === '.mamba'){
+            msg.channel.send("Ab underground janay ka samay a gaya hay")
         }
         });
 
