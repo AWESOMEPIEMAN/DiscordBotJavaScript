@@ -76,7 +76,7 @@ client.on('message', msg =>{
 client.on('message', msg =>{
     
         if(msg.content === '.mamba'){
-            msg.channel.send("Ab underground janay ka samay a gaya hay")
+            msg.channel.send("Stop Stop Stop. 10 second peechay karo, Han theek")
         }
         });
 
