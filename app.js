@@ -62,21 +62,22 @@ client.on('message', msg =>{
 
 client.on('message', msg =>{
     
-    if(msg.content === '.abdullah'){
-        msg.channel.send("Beta aj rana nahi bachda. Aj Abdullah nu chuk kay lejana")
-    }
-    });
-
-client.on('message', msg =>{
-    
         if(msg.content === '.fu'){
             msg.channel.send("Fucking fuck fuck hogaya")
         }
         });
+
 client.on('message', msg =>{
     
         if(msg.content === '.mamba'){
             msg.channel.send("Stop Stop Stop. 10 second peechay karo, Han theek")
+        }
+        });
+
+client.on('message', msg =>{
+    
+        if(msg.content === '.under'){
+            msg.channel.send("Ab underground janay ka sama agaya hay mera")
         }
         });
 
