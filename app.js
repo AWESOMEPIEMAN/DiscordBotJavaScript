@@ -48,6 +48,13 @@ if(msg.content === '.ice'){
 
 client.on('message', msg =>{
     
+if(msg.content === '.abu'){
+    msg.channel.send("<@263448388576477185> <@728997545623289897> <@763825341034004520> <@527429958470205451> <@719247539089571860> Ap sab logo kay abu <@495663537759453184> bula rahay hay")
+}
+});
+
+client.on('message', msg =>{
+    
 if(msg.content === '.xam'){
     msg.channel.send("Meethay londay aja meri godi may bhet")
 }
