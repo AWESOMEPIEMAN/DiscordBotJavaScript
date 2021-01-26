@@ -62,6 +62,13 @@ client.on('message', msg =>{
 
 client.on('message', msg =>{
     
+    if(msg.content === '.L'){
+        msg.channel.send(" Hello <@263448388576477185>")
+    }
+    });
+
+client.on('message', msg =>{
+    
         if(msg.content === '.fu'){
             msg.channel.send("Fucking fuck fuck hogaya")
         }
