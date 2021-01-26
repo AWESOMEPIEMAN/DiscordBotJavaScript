@@ -69,6 +69,13 @@ client.on('message', msg =>{
 
 client.on('message', msg =>{
     
+        if(msg.content === '.under'){
+            msg.channel.send("Ab underground janay ka sama agaya hay mera")
+        }
+        });
+
+client.on('message', msg =>{
+    
         if(msg.content === '.fu'){
             msg.channel.send("Fucking fuck fuck hogaya")
         }
@@ -97,8 +104,8 @@ client.on('message', msg =>{
 
 client.on('message', msg =>{
     
-        if(msg.content === '.under'){
-            msg.channel.send("Ab underground janay ka sama agaya hay mera")
+        if(msg.content === '.kuta'){
+            msg.channel.send("<@527429958470205451> Bohot bara kuta hay <@527429958470205451> Bohot bara harami hay <@527429958470205451> bohot bara chu hay")
         }
         });
 
