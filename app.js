@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg =>{
-  if (msg.content.includes("Who is Pudding?")){
+  if (msg.content.includes("Who is pudding?")){
       msg.reply(["It looks like you're looking for the amazing <@495663537759453184>",
       "You can look for him at ",
       "https://www.instagram.com/usman._.h/"
@@ -16,7 +16,7 @@ client.on('message', msg =>{
 });
 
 client.on('message', msg =>{
-    if (msg.content.includes("Who is Awais?")){
+    if (msg.content.includes("Who is awais?")){
         msg.reply(["For mentally challenged person <@263448388576477185> : ",
         "https://www.instagram.com/lifeofawais/"
       ])
@@ -24,7 +24,7 @@ client.on('message', msg =>{
   });
 
 client.on('message', msg =>{
-    if (msg.content.includes("Who is iceflame?")){
+    if (msg.content.includes("Who is Iceflame?")){
         msg.reply(["Is kanjar <@527429958470205451> say mulakat kayliyay neechay dekhiyay",
         "https://www.instagram.com/mriceflame1/"
       ])
