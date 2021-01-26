@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on('message', msg =>{
   if (msg.content.includes("Who is Pudding?")){
-      msg.reply(["It looks like you're looking for an amazing person",
+      msg.reply(["It looks like you're looking for the amazing <@495663537759453184>",
       "You can look for him at ",
       "https://www.instagram.com/usman._.h/"
     ])
@@ -17,7 +17,7 @@ client.on('message', msg =>{
 
 client.on('message', msg =>{
     if (msg.content.includes("Who is Awais?")){
-        msg.reply(["For mentally challenged person : ",
+        msg.reply(["For mentally challenged person <@263448388576477185> : ",
         "https://www.instagram.com/lifeofawais/"
       ])
     }
@@ -25,7 +25,7 @@ client.on('message', msg =>{
 
 client.on('message', msg =>{
     if (msg.content.includes("Who is iceflame?")){
-        msg.reply(["Is kanjar say mulakat kayliyay neechay dekhiyay",
+        msg.reply(["Is kanjar <@527429958470205451> say mulakat kayliyay neechay dekhiyay",
         "https://www.instagram.com/mriceflame1/"
       ])
     }
@@ -78,6 +78,20 @@ client.on('message', msg =>{
     
         if(msg.content === '.mamba'){
             msg.channel.send("Stop Stop Stop. 10 second peechay karo, Han theek")
+        }
+        });
+
+client.on('message', msg =>{
+    
+        if(msg.content === '.aot'){
+            msg.channel.send("Ustad yaqeen karo aik bibi hay <@728997545623289897> usnay humaray anime ki mommy sister aik ki wi hay")
+        }
+        });
+
+client.on('message', msg =>{
+    
+        if(msg.content === '.meetha'){
+            msg.channel.send("Puray server ka sabsay meetha londa <@763825341034004520> aja meri godi may bhet")
         }
         });
 
