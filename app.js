@@ -116,5 +116,12 @@ client.on('message', msg =>{
         }
         });
 
+client.on('message', msg =>{
+    
+        if(msg.content === '.hex'){
+            msg.channel.send("I met an amazing person his name was Hex, he was from Bosnia")
+        }
+        });
+
 
 client.login(process.env.BOT_TOKEN);
